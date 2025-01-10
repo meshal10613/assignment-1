@@ -288,7 +288,6 @@ header button:hover{
     margin: 72px;
     padding: 48px 24px;
     height: 307px;
-    /* background: url("/icons8-double-quotes/icons8-double-quotes-100.png"); */
     background-repeat: no-repeat;
     position: relative;
 }
@@ -323,3 +322,82 @@ header button:hover{
     letter-spacing: 0%;
     text-align: left;
 }
+ 
+/* section-opinion */
+.opinion{
+    padding: 0 72px;
+}
+.opinion .title{
+    color: rgb(14, 14, 14);
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 28px;
+}
+.opinion-container {
+    width: 95.5%;
+    background-color: white;
+    border-radius: 8px;
+    overflow: hidden;
+    padding: 38px;
+    margin-bottom: 100px;
+}
+  
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+  
+thead {
+    background: rgb(198, 228, 214);
+    color: rgb(14, 14, 14);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0%;
+}
+  
+thead .th1 {
+    padding: 15px;
+    text-align: left;
+    font-size: 16px;
+}
+thead .th2 {
+    padding: 15px;
+    text-align: right;
+    font-size: 16px;
+}
+  
+tbody tr {
+    background-color: white;
+}
+  
+td {
+    padding: 15px;
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    background: rgba(255, 255, 255, 0.1);
+    color: rgb(14, 14, 14);
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 0%;
+}
+
+.select{
+    text-align: center;
+    width: 11%;
+}
+select {
+    padding: 8px;
+    font-size: 14px;
+    color: #000;
+    cursor: pointer;
+    box-sizing: border-box;
+    border: 1px solid rgb(14, 14, 14);
+    border-radius: 4px;
+    background: rgb(198, 228, 214);
+}
+  
