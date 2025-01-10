@@ -16,7 +16,7 @@ header nav{
     justify-content: space-between;
     align-items: center;
     padding-bottom: 31px;
-    margin: 0 75px;
+    margin: 0 72px;
 }
 header h3{
     color: rgb(14, 14, 14);
@@ -151,4 +151,130 @@ header button:hover{
     line-height: 28px;
     letter-spacing: 0%;
     text-align: left;
+}
+
+/* section-vision */
+.vision{
+    margin: 72px;
+}
+.vision .title{
+    color: rgb(14, 14, 14);
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 30px;
+}
+.vision .description{
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 40px;
+}
+.vision .vision-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.vision .vision-content .content{
+    box-sizing: border-box;
+    border-radius: 16px;
+    padding: 36px;
+    width: 550px;
+    height: 350px;
+}
+.vision .vision-content .blue{
+    background: rgba(84, 144, 245, 0.2);
+}
+.vision .vision-content .green{
+    background: rgb(198, 228, 214);
+    margin: 0 28px;
+}
+.vision .vision-content .yellow{
+    background: rgb(247, 235, 207);
+}
+.vision .vision-content .content h4{
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-top: 28px;
+    margin-bottom: 15px;
+}
+.vision .vision-content .content p{
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.vision .vision-content .blue button{
+    border-radius: 8px;
+    background: rgb(84, 144, 245);
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: center;
+    width: 146px;
+    height: 50px;
+    margin-top: 28px;
+    padding: 12px 24px;
+    border: none;
+    transition: .5s;
+}
+.vision .vision-content .blue button:hover{
+    color: rgb(84, 144, 245);
+    background-color: white;
+    border: 1px solid rgb(84, 144, 245);
+}
+.vision .vision-content .green button{
+    color: rgb(255, 255, 255);
+    background: rgb(9, 161, 92);
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: center;
+    width: 146px;
+    height: 50px;
+    margin-top: 28px;
+    padding: 12px 24px;
+    border: none;
+    transition: .5s;
+}
+.vision .vision-content .green button:hover{
+    color: rgb(9, 161, 92);
+    background-color: white;
+    border: 1px solid rgb(9, 161, 92);
+}
+.vision .vision-content .yellow button{
+    color: rgb(255, 255, 255);
+    background: rgb(255, 194, 57);
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: center;
+    width: 146px;
+    height: 50px;
+    margin-top: 28px;
+    padding: 12px 24px;
+    border: none;
+    transition: .5s;
+}
+.vision .vision-content .yellow button:hover{
+    color: rgb(255, 194, 57);
+    background-color: white;
+    border: 1px solid rgb(255, 194, 57);
 }
