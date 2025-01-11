@@ -159,9 +159,9 @@ header button:hover{
 }
 .vision .title{
     color: rgb(14, 14, 14);
-    font-size: 40px;
+    font-size: 48px;
     font-weight: 700;
-    line-height: 48px;
+    line-height: 55px;
     letter-spacing: 0%;
     text-align: left;
     margin-bottom: 30px;
@@ -329,9 +329,9 @@ header button:hover{
 }
 .opinion .title{
     color: rgb(14, 14, 14);
-    font-size: 40px;
+    font-size: 48px;
     font-weight: 700;
-    line-height: 48px;
+    line-height: 55px;
     letter-spacing: 0%;
     text-align: left;
     margin-bottom: 28px;
@@ -400,4 +400,89 @@ select {
     border-radius: 4px;
     background: rgb(198, 228, 214);
 }
-  
+
+/* section-recent */
+.recent{
+    padding: 0 72px;
+    margin: 28px 0;
+}
+.recent .title{
+    color: rgb(14, 14, 14);
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 55px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 28px;
+}
+.recent .description{
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 38px;
+}
+.recent .news{
+    padding: 58px;
+    display: flex;
+    gap: 38px;
+    border-radius: 24px;
+    background: rgb(255, 255, 255);
+}
+.recent .news .satelite{
+    border-radius: 24px;
+}
+.recent .news .title{
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 45px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 0;
+}
+.recent .news .al-jazeera{
+    margin-top: 14px;
+    margin-bottom: 14px;
+}
+.recent .news .date-time{
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 14px;
+}
+.recent .news .date-time span{
+    margin-left: 14px;
+}
+.recent .news .description{
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.recent .news button{
+    width: 167px;
+    height: 55px;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    background: rgb(0, 106, 80);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+    transition: 0.5s;
+}
+.recent .news button:hover{
+    color: rgb(0, 106, 80);
+    background: white;
+    border:1px solid rgb(0, 106, 80);
+}
