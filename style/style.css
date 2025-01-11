@@ -539,6 +539,10 @@ select {
     color: white;
     background-color: rgb(198, 228, 214);
     border: none;
+    cursor: pointer;
+}
+.donate .donate-cards .change{
+    background-color: rgb(198, 228, 214);
 }
 .donate form input{
     width: 90%;
@@ -576,3 +580,97 @@ select {
 }
 
 /* section-subscribe */
+.subcribe{
+    margin: 80px 72px;
+    padding: 96px 120px;
+    border: none;
+    border-radius: 24px;
+    background: rgb(198, 228, 214);
+    text-align: center;
+}
+.subcribe .title{
+    color: rgb(14, 14, 14);
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 55px;
+    letter-spacing: 0%;
+    margin-bottom: 18px;
+}
+.subcribe .description{
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0%;
+    margin-bottom: 28px;
+}
+.subcribe form{
+    display: flex;
+    gap: 0;
+    justify-content: center;
+    margin: 25px 0;
+}
+.subcribe form input{
+    border: none;
+    border-radius: 8px 0px 0px 8px;
+    background: rgb(255, 255, 255);
+    color: rgba(14, 14, 14, 0.3);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: left;
+    padding: 0 40px;
+    width: 720px;
+    height: 66px;
+}
+.subcribe form button{
+    width: 180px;
+    height: 66px;
+    padding: 0 40px;
+    border: none;
+    border-radius: 0px 8px 8px 0px;
+    background: rgb(0, 106, 80);
+    color: rgb(255, 255, 255);
+    font-size: 21px;
+    font-weight: 600;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+    transition: .5s;
+    cursor: pointer;
+}
+.subcribe form button:hover{
+    color: rgb(0, 106, 80);
+    background-color: white;
+    border: 1px solid rgb(0, 106, 80);
+}
+.subcribe .subtitle{
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0%;
+}
+
+/* footer  */
+footer{
+    margin-top: 60px;
+    padding: 60px 190px;
+    text-align: center;
+    background-color: white;
+}
+footer h1{
+    color: rgb(14, 14, 14);
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 42px;
+    letter-spacing: 0%;
+    margin-bottom: 38px;
+}
+footer .social-links{
+    display: flex;
+    justify-content: center;
+    gap: 28px;
+    margin-top: 38px;
+}
