@@ -671,6 +671,7 @@ footer h1{
 footer .social-links{
     display: flex;
     justify-content: center;
+    align-items: center;
     gap: 28px;
     margin-top: 38px;
 }
