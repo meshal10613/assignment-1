@@ -230,6 +230,7 @@ header button:hover{
     padding: 12px 24px;
     border: none;
     transition: .5s;
+    cursor: pointer;
 }
 .vision .vision-content .blue button:hover{
     color: rgb(84, 144, 245);
@@ -251,6 +252,7 @@ header button:hover{
     padding: 12px 24px;
     border: none;
     transition: .5s;
+    cursor: pointer;
 }
 .vision .vision-content .green button:hover{
     color: rgb(9, 161, 92);
@@ -272,6 +274,7 @@ header button:hover{
     padding: 12px 24px;
     border: none;
     transition: .5s;
+    cursor: pointer;
 }
 .vision .vision-content .yellow button:hover{
     color: rgb(255, 194, 57);
@@ -480,9 +483,96 @@ select {
     letter-spacing: 0%;
     text-align: center;
     transition: 0.5s;
+    cursor: pointer;
 }
 .recent .news button:hover{
     color: rgb(0, 106, 80);
     background: white;
     border:1px solid rgb(0, 106, 80);
 }
+
+/* section-donate */
+.donate{
+    padding: 0 120px;
+    margin: 80px 72px;
+    text-align: center;
+}
+.donate .title{
+    color: rgb(14, 14, 14);
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 55px;
+    letter-spacing: 0%;
+    margin-bottom: 28px;
+}
+.donate .description{
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0%;
+    margin-bottom: 48px;
+}
+.donate .donate-cards{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    width: 100%;
+}
+.donate .donate-cards .amount{
+    padding: 48px;
+    margin: 28px;
+    width: 288px;
+    height: 153px;
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+    transition: .5s;
+}
+.donate .donate-cards .amount:hover{
+    color: white;
+    background-color: rgb(198, 228, 214);
+    border: none;
+}
+.donate form input{
+    width: 90%;
+    text-align: center;
+    height: 77px;
+    color: rgba(14, 14, 14, 0.3);
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0%;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 1px solid rgba(14, 14, 14, 0.15);
+    background: rgb(255, 255, 255);
+}
+.donate form button{
+    width: 167px;
+    height: 55px;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    background: rgb(0, 106, 80);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.donate form button:hover{
+    color: rgb(0, 106, 80);
+    background: white;
+    border:1px solid rgb(0, 106, 80);
+}
+
+/* section-subscribe */
